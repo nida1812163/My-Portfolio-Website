@@ -1,0 +1,96 @@
+
+.aboutFont{
+    padding-top: 15px;
+}
+
+.aboutHeading{
+    color: orangered;
+}
+
+.aboutMe{
+    padding: 20px;
+}
+
+
+ .wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: #2b2d42;
+    border-radius: 50%;
+}
+  
+  /* Boat card styling */
+  .boatCard {
+   /*  width: 18rem; /* Bootstrap default card width */
+   /* transform-origin: center bottom; /* Rock from the bottom */
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(197, 65, 18); /* Wooden color */
+    position: relative;
+    color: wheat;
+    border-radius: 0 0 50% 50%; /* flat top, curved bottom */
+    clip-path: path(
+      "M 0 40 
+      Q 100 80 200 40
+      L 200 60
+      Q 100 100 0 60
+      Z"
+    );
+  }
+
+  .cardBody{
+    padding: 20px 10px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    color: black;
+  }
+
+  @media only screen and (max-width: 500px){
+
+    .wave{
+      display: none;
+      bottom: none;
+      border-radius: none;
+      background: none;
+    }
+
+    .boatCard{
+      background: none;
+      border-radius: 0;
+      height: auto;
+      clip-path: none !important;
+      justify-content: center;
+      animation: none !important;
+      transform: none !important;
+      transition: none !important;
+      outline: 1px solid orangered !important;
+
+    }
+    
+  }
+
+  @media only screen and (min-width: 600px){
+    .boatCard{
+      width: 90%;
+    }
+    .cardBody{
+      padding: 3px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px){
+    .aboutMe{
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px){
+    .aboutMe{
+      font-size: 20px;
+    }
+  }

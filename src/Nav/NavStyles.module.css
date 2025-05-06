@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navBrand{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+}
+
+.navBrand:hover{
+    color: orangered;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.elementOpen{
+    backdrop-filter: blur(10px);
+}
+
+.elementOpen:hover{
+    color: orangered;
+}
+
+.elementCollapse{
+    text-align: right;
+    justify-content: center;
+}
+
+.offcanvasCustom{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    color: wheat;
+}
+
+@media only screen and (max-width: 600px){
+    .jumbotron{
+        height: 510px;
+        width: 100%;
+    }
+    .offcanvasCustom{
+        width: 50vw !important;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px){
+    .jumbotron{
+        height: 510px;
+        width: 100%;
+    }
+    .elementOpen{
+        margin-top: 10px;
+    }
+
+    .navBrand{
+        margin-top: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px){
+    .navBrand{
+        margin-bottom: 15px;
+    }
+  }

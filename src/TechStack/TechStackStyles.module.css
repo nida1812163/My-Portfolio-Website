@@ -1,0 +1,128 @@
+
+.techFont{
+    padding-top: 15px;
+}
+
+.techHeading{
+    color: orangered;
+}
+
+.techInfo{
+    background-image: url('../../public/bg.jpg');
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+
+}
+
+.techShapeimg{
+    transform: scaleY(-1);
+    height: 50px;
+    width: 100%;
+    margin: 0 0 auto;
+}
+
+.techImg{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    padding: 30px;
+    color:  rgba(1, 128, 156);;
+}
+
+.slideContent {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    /*justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-left: 30px;*/
+}
+
+.boxBordersSQL{
+    border-radius: 5%;
+    background-color: rgba(1, 128, 156, 0.2);
+    border: rgb(19, 131, 156);   
+}
+
+.boxBordersMongoDB{
+    border-radius: 5%;
+    background-color: rgba(63, 150, 55, 0.2);
+    border: rgba(63, 150, 55);
+}
+
+.boxBordersMariaDB{
+    border-radius: 5%;
+    background-color: rgba(0, 119, 204, 0.2);
+    border: rgba(0, 119, 204);
+}
+
+.boxBordersNodeJS{
+    border-radius: 5%;
+    background-color: rgba(60, 135, 58, 0.2);
+    border: rgba(60, 135, 58);
+}
+
+.boxBordersBootstrap{
+    border-radius: 5%;
+    background-color: rgba(96, 44, 80, 0.2);
+    border: rgba(96, 44, 80);
+}
+
+.boxBordersExpress{
+    border-radius: 5%;
+    background-color: rgba(65, 63, 63, 0.2);
+    border: rgba(65, 63, 63);
+}
+
+.boxBordersWordpress{
+    border-radius: 5%;
+    background-color: rgba(9, 100, 132, 0.2);
+    border: rgba(9, 100, 132);
+}
+
+.boxBordersReactJS{
+    border-radius: 5%;
+    background-color: rgba(97, 219, 251, 0.2);
+    border: rgba(97, 219, 251);
+}
+
+@media only screen and (max-width: 600px){
+    .stackElements{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1;
+    }
+
+    .techShapeimg{
+        margin-top: -1px;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px){
+    .techShapeimg{
+        margin-top: -1px;
+    }
+
+    .slideContent{
+        grid-auto-flow: row;
+        gap: 10px;
+        
+    }
+    .stackElements{
+        grid-auto-flow: column;
+        gap: 50px !important;
+        width: 500px;
+        align-items: center;
+    }
+
+
+  }
+
+
+ 
+
+

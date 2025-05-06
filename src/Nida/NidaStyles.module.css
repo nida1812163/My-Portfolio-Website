@@ -1,0 +1,162 @@
+
+.jumbotron{
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../public/bg.jpg');
+    color: wheat;
+    text-align: center;  
+    
+}
+
+.content{
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.imgStyle{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 0 0; /*moved the image pocition to the top so that my face is visible*/
+    /*border-radius: 40px 40px 0 0; */
+    clip-path: circle();
+    margin: 0 auto 10px;
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.imgStyle:hover{
+    transform: scale(1.1);
+}
+
+.myName{
+    font-size: 20px;
+}
+
+.highlightedName{
+    color: orangered;
+    font-weight: bold;
+}
+
+.description{
+    max-width: 27ch;
+    font-size: 17px;
+}
+
+.resumeButton{
+    margin-right: calc((90% - (2 * 100px)) / 2);
+    width: 100px;
+    background-color: orangered;
+    border-color: orangered;
+    border-color: orangered;
+}
+
+.resumeButton:hover{
+    border-color: wheat;
+    background-color: wheat;
+    color: orangered;
+
+}
+
+.contactMeButton:hover{
+    color: orangered;
+    background-color: transparent;
+    border-color: orangered;
+}
+
+@media only screen and (max-width: 280px){
+    .jumbotron{
+        height: 490px;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 320px){
+    .jumbotron{
+        height: 495px;
+        width: 100%;
+    }
+
+  }
+
+@media only screen and (max-width <= 600px){
+    .jumbotron{
+        height: 510px;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (min-width: 600px){
+    .jumbotron{
+        height: 510px;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px){
+    .jumbotron{
+        height: 530px;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px){
+    .jumbotron{
+        height: 530px;
+        width: 100%;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        gap: 50px;
+    }
+
+    .imgStyle{
+        height: 300px;
+        width: 300px;
+    }
+
+    .myName{
+        font-size: 25px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+
+    .resumeButton, .contactMeButton{
+        font-size: 15px;
+    }
+
+    .myName, .description{
+        display: block;
+        margin-bottom: 25px;
+        justify-content: space-evenly;
+    }
+
+    .shapeImg{
+        margin-bottom: -1px;
+    }
+
+  }
+
+

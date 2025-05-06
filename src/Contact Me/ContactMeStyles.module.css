@@ -1,0 +1,134 @@
+.ContactMeFont{
+    padding-top: 15px;
+}
+
+.ContactMeHeading{
+    color: orangered;
+}
+
+.outerBorder{
+    background-image: url('../../public/bg.jpg');
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.innerBorder{
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.FormBorder{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
+
+}
+
+.formLabel{
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.customForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+.ButtonStyle{
+    background-color: orangered;
+    border: none;
+}
+
+.ButtonStyle:hover{
+    border-color: wheat;
+    background-color: wheat;
+    color: orangered;
+}
+
+@media only screen and (min-width: 600px){
+    .formLabel {
+        margin-left: 0px;
+        text-align: left;
+        justify-content: flex-start;
+        font-weight: bold;
+    }
+    .formLabelMessage{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .innerBorder{
+        padding: 70px;
+    }
+
+    .FormBorder{
+        padding: 30px;
+    }
+
+    .inputBox{
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-left: 2px;
+        min-width: 400px;
+    }
+
+    .ButtonStyle{
+        font-size: 19px;
+    }
+      
+}
+
+@media only screen and (min-width: 992px){
+    .FormBorder{
+        align-items: center;
+        padding: 50px;
+    }
+    .formGroup{
+        display: flex;
+        flex-direction: row;
+        margin-left: 34px;
+        
+    }
+    .formLabel{
+        margin-right: 25px;
+    }
+    .formLabelMessage{
+        font-weight: bold;
+    }
+    .form-inline{
+        margin-left: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px){
+    .FormBorder{
+        align-items: center;
+    }
+    .formGroup{
+        display: flex;
+        flex-direction: row;
+        margin-left: 140px;
+        
+    }
+    .formLabel{
+        margin-right: 50px;
+        font-size: 18px;
+    }
+    .formLabelMessage{
+        font-weight: bold;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+    .inputBox{
+        font-size: 15px;
+    }
+}
