@@ -3,7 +3,9 @@ import styles from "./MongoDbStyles.module.css";
 
 const Javascript = () => {
   return (
-    <svg className={styles.mongoDbSize} style={{borderRadius:'5%', opacity:'0.6'}}
+    <svg
+      className={styles.mongoDbSize}
+      style={{ borderRadius: "5%", opacity: "0.6" }}
       xmlns="http://www.w3.org/2000/svg"
       width="2500"
       height="2500"

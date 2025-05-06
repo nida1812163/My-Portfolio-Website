@@ -3,7 +3,9 @@ import styles from "./MongoDbStyles.module.css";
 
 const Bootstrap = () => {
   return (
-    <svg className={styles.mongoDbSize} style={{padding:'8px'}}
+    <svg
+      className={styles.mongoDbSize}
+      style={{ padding: "8px" }}
       viewBox="0 0 256 204"
       xmlns="http://www.w3.org/2000/svg"
       width="256"

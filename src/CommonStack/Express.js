@@ -3,7 +3,9 @@ import styles from "./MongoDbStyles.module.css";
 
 const Express = () => {
   return (
-    <svg className={styles.mongoDbSize} style={{padding:'8px'}}
+    <svg
+      className={styles.mongoDbSize}
+      style={{ padding: "8px" }}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 32 32"
       width="64"

@@ -1,65 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.navBrand{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.navBrand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: wheat;
 }
 
-.navBrand:hover{
+.navBrand:hover {
     color: orangered;
 }
 
-.transparent{
+.transparent {
     background-color: transparent;
 }
 
-.elementOpen{
+.elementOpen {
     backdrop-filter: blur(10px);
 }
 
-.elementOpen:hover{
+.elementOpen:hover {
     color: orangered;
 }
 
-.elementCollapse{
+.elementCollapse {
     text-align: right;
     justify-content: center;
 }
 
-.offcanvasCustom{
+.offcanvasCustom {
     background-color: rgba(255, 255, 255, 0.1) !important;
     backdrop-filter: blur(10px);
     color: wheat;
 }
 
-@media only screen and (max-width: 600px){
-    .jumbotron{
+@media only screen and (max-width: 600px) {
+    .jumbotron {
         height: 510px;
         width: 100%;
     }
-    .offcanvasCustom{
+
+    .offcanvasCustom {
         width: 50vw !important;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 768px){
-    .jumbotron{
+@media only screen and (min-width: 768px) {
+    .jumbotron {
         height: 510px;
         width: 100%;
     }
-    .elementOpen{
+
+    .elementOpen {
         margin-top: 10px;
     }
 
-    .navBrand{
+    .navBrand {
         margin-top: 20px;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 992px){
-    .navBrand{
+@media only screen and (min-width: 992px) {
+    .navBrand {
         margin-bottom: 15px;
     }
-  }
+}

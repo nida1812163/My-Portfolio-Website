@@ -3,7 +3,8 @@ import styles from "./MongoDbStyles.module.css";
 
 const ReactJS = () => {
   return (
-    <svg className={styles.mongoDbSize} 
+    <svg
+      className={styles.mongoDbSize}
       viewBox="0 0 256 228"
       width="256"
       height="228"

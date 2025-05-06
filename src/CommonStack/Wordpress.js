@@ -3,7 +3,9 @@ import styles from "./MongoDbStyles.module.css";
 
 const Wordpress = () => {
   return (
-    <svg className={styles.mongoDbSize} style={{padding:'5px'}}
+    <svg
+      className={styles.mongoDbSize}
+      style={{ padding: "5px" }}
       viewBox="0 0 122.52 122.523"
       width="512"
       height="512"

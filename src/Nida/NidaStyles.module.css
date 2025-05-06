@@ -1,16 +1,15 @@
-
-.jumbotron{
+.jumbotron {
     height: 500px;
     flex-direction: column;
     display: flex;
     justify-content: center;
     background-image: url('../../public/bg.jpg');
     color: wheat;
-    text-align: center;  
-    
+    text-align: center;
+
 }
 
-.content{
+.content {
     width: fit-content;
     position: relative;
     margin-left: auto;
@@ -20,12 +19,13 @@
     gap: 15px;
 }
 
-.imgStyle{
+.imgStyle {
     height: 250px;
     width: 250px;
     overflow: hidden;
     object-fit: cover;
-    object-position: 0 0; /*moved the image pocition to the top so that my face is visible*/
+    object-position: 0 0;
+    /*moved the image pocition to the top so that my face is visible*/
     /*border-radius: 40px 40px 0 0; */
     clip-path: circle();
     margin: 0 auto 10px;
@@ -36,25 +36,25 @@
 
 }
 
-.imgStyle:hover{
+.imgStyle:hover {
     transform: scale(1.1);
 }
 
-.myName{
+.myName {
     font-size: 20px;
 }
 
-.highlightedName{
+.highlightedName {
     color: orangered;
     font-weight: bold;
 }
 
-.description{
+.description {
     max-width: 27ch;
     font-size: 17px;
 }
 
-.resumeButton{
+.resumeButton {
     margin-right: calc((90% - (2 * 100px)) / 2);
     width: 100px;
     background-color: orangered;
@@ -62,66 +62,66 @@
     border-color: orangered;
 }
 
-.resumeButton:hover{
+.resumeButton:hover {
     border-color: wheat;
     background-color: wheat;
     color: orangered;
 
 }
 
-.contactMeButton:hover{
+.contactMeButton:hover {
     color: orangered;
     background-color: transparent;
     border-color: orangered;
 }
 
-@media only screen and (max-width: 280px){
-    .jumbotron{
+@media only screen and (max-width: 280px) {
+    .jumbotron {
         height: 490px;
         width: 100%;
     }
 
-  }
+}
 
-  @media only screen and (max-width: 320px){
-    .jumbotron{
+@media only screen and (max-width: 320px) {
+    .jumbotron {
         height: 495px;
         width: 100%;
     }
 
-  }
+}
 
-@media only screen and (max-width <= 600px){
-    .jumbotron{
+@media only screen and (max-width <=600px) {
+    .jumbotron {
         height: 510px;
         width: 100%;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 600px){
-    .jumbotron{
+@media only screen and (min-width: 600px) {
+    .jumbotron {
         height: 510px;
         width: 100%;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 768px){
-    .jumbotron{
+@media only screen and (min-width: 768px) {
+    .jumbotron {
         height: 530px;
         width: 100%;
     }
 
-  }
+}
 
-  @media only screen and (min-width: 992px){
-    .jumbotron{
+@media only screen and (min-width: 992px) {
+    .jumbotron {
         height: 530px;
         width: 100%;
     }
 
-    .content{
+    .content {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -130,33 +130,33 @@
         gap: 50px;
     }
 
-    .imgStyle{
+    .imgStyle {
         height: 300px;
         width: 300px;
     }
 
-    .myName{
+    .myName {
         font-size: 25px;
     }
 
-    .description{
+    .description {
         font-size: 20px;
     }
 
-    .resumeButton, .contactMeButton{
+    .resumeButton,
+    .contactMeButton {
         font-size: 15px;
     }
 
-    .myName, .description{
+    .myName,
+    .description {
         display: block;
         margin-bottom: 25px;
         justify-content: space-evenly;
     }
 
-    .shapeImg{
+    .shapeImg {
         margin-bottom: -1px;
     }
 
-  }
-
-
+}
