@@ -75,6 +75,11 @@
     border-color: orangered;
 }
 
+.shapeImg{
+    align-self: flex-end;
+    width: 100%;
+}
+
 @media only screen and (max-width: 280px) {
     .jumbotron {
         height: 490px;
