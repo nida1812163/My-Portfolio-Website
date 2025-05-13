@@ -160,8 +160,27 @@
         justify-content: space-evenly;
     }
 
-    .shapeImg {
-        margin-bottom: -1px;
+   
+}
+
+@media only screen and (max-height: 1024px){
+    .jumbotron{
+        height: 80%;
     }
 
+    .description {
+        font-size: 20px;
+    }
+
+    .myName,
+    .description {
+        display: block;
+        margin-bottom: 25px;
+        justify-content: space-evenly;
+    }
+
+    .resumeButton,
+    .contactMeButton {
+        font-size: 20px;
+    }
 }
